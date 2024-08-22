@@ -11,7 +11,7 @@ const {
   setCategoriesCollection,
   setDatabase,
 } = require("./routes/categories");
-const { createCollections } = require("./hooks/createCollection");
+const { createCollections } = require("./createCollection");
 
 const app = express();
 const port = process.env.PORT || 5000;
